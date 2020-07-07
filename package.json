@@ -1,0 +1,19 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "React JS based Web application and Front end stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravindra26/ReactProjects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravindra26/ReactProjects/issues"
+  },
+  "homepage": "https://github.com/ravindra26/ReactProjects#readme"
+}
