@@ -2,3 +2,20 @@
     width: 100%;
     height: 450px;
 }
+
+.width-100p-height-300px{
+    width: 100%;
+    height: 300px;
+}
+
+.border{
+    border: dashed black 1px;
+}
+
+.paddingBottom1p{
+    padding-bottom: 1%;
+}
+
+.padding1p{
+    padding: 1%;
+}
