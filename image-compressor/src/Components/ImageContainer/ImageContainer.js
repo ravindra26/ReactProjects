@@ -20,16 +20,16 @@ const imageContainer = (props) => {
             </Row>
             <Row className={styles.paddingBottom1p}>
                 <Col xs={2}></Col>
-                <Col xs={8} className={classNames(styles["width-100p-height-450px"], styles.border)}><img src={props.image}></img></Col>
+                <Col xs={8} className={styles["width-100p-height-450px"]}><img src={props.image} className={classNames(styles.border,styles["fir-inside-div"])}></img></Col>
                 <Col xs={2}></Col>
             </Row>
             <Row className={styles.paddingBottom1p}>
                 <Col xs={4}></Col>
                 <Col xs={4}>
                     <Row>
-                        <Col xs={4} className={appStyles["text-center"]}><Button variant="secondary"><AddCircle /></Button></Col>
-                        <Col xs={4} className={appStyles["text-center"]}><FormControl readOnly={true}></FormControl></Col>
-                        <Col xs={4} className={appStyles["text-center"]}><Button variant="secondary"><SubtractCircle /></Button></Col>
+                        <Col xs={4} className={appStyles["text-center"]}><Button variant="secondary" onClick={props.incComp}><AddCircle/></Button></Col>
+                        <Col xs={4} className={appStyles["text-center"]}><FormControl readOnly={true} className={appStyles["text-center"]} value={props.value}></FormControl></Col>
+                        <Col xs={4} className={appStyles["text-center"]}><Button variant="secondary" onClick={props.decComp}><SubtractCircle /></Button></Col>
                     </Row>
                 </Col>
                 <Col xs={4}></Col>

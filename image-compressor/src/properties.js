@@ -5,5 +5,6 @@ export const properties = {
     originalImage:"Original Image",
     compressionPercentage:"Compression Percantage",
     conpressedImage:"Compressed Image",
-    compress:"Compress"
+    compress:"Compress",
+    download:"Download"
 };

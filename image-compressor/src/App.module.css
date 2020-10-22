@@ -7,3 +7,7 @@
   padding: 1%;
 }
 
+.width-100p{
+  width: 100%;
+  max-width: 100%;
+}
